@@ -1,0 +1,49 @@
+* { 
+    box-sizing: border-box;
+}
+h1, h2 {
+    color:blue;
+    text-align: center;
+}
+
+body {
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-image: url("img1.webp");
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    width: 80vw;
+    margin: 0px auto;
+    padding: 20px;
+    overflow: hidden;
+}
+
+aside {
+    padding: 20px;
+    width: 250px;
+    border: 3px solid blue;
+    margin: auto;
+}
+
+button {
+    cursor: pointer;
+    background-color: rgb(51, 51, 255);
+    border: 3px solid black;
+    border-radius: 5px;
+    display: block;
+    padding: 10px;
+    color:white;
+    font-weight: bold;
+    font-size: 14px;
+    width:100%;
+    transition: 0.5s;
+}
+button:hover {
+    background-color: rgb(0, 0, 125);
+    font-size: 16px;
+}
