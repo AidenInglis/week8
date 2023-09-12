@@ -5,7 +5,7 @@
 
 let btn = document.getElementById('btnCount')
 btn.addEventListener('click', () => {
-    let hTwoHeader = document.getElementById('h2')
+    let hTwoHeader = document.getElementsByTagName('h2')
     alert(`The number of H2 tags are : ${hTwoHeader.length}`)
 })
 
