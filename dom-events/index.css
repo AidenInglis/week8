@@ -1,0 +1,28 @@
+
+p {
+    color: black;
+    text-align: center;
+}
+body {
+    background-image: url("img1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p label {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    transition: .8s;
+    padding: 20px;
+}
+p label:hover {
+    color: aqua;
+    font-size: 25px;
+}
+input {
+    transition: .8s;
+}
+input:hover {
+    scale: 2;
+}
