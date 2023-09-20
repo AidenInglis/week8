@@ -1,10 +1,30 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Paddle Game</title>
-    <link rel="stylesheet" type="text/css" href="ten.css">
-    <script type="text/javascript" src="ten.js"></script>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
+    <head>
+        <title>Paddle Game</title>
+        <link rel="stylesheet" type="text/css" href="ten.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
 
+    <body>
+        <h1>Paddle Game</h1>
+        <button id="rules-btn" class="btn rules-btn">Rules</button>
+        <div id="rules" class="rules">
+            <h2>Rules</h2>
+            <p>Use the left and right arrow keys to move the paddle.</p>
+            <p>Use the space bar to pause the game.</p>
+            <p>Use the escape key to reset the game.</p>
+            <p>Use the up and down arrow keys to change the speed of the ball.</p>
+            <p>Use the enter key to start the game.</p>
+            <p>Use the mouse to move the paddle.</p>
+            <p>Use the mouse to click the buttons.</p>
+            <p>Use the mouse to click the canvas to start the game.</p>
+            <button id="close-btn" class="btn">Close</button>
+        </div>
+
+        <canvas id="canvas" width="800" height="600"></canvas>
+
+        <script type="text/javascript" src="ten.js"></script>
+    </body>
+</html>
