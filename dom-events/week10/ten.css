@@ -50,6 +50,12 @@ canvas {
     left: 30px;
 }
 
+.start-btn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
 .rules {
     position: absolute;
     top: 0;
